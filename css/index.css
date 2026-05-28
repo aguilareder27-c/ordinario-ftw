@@ -1,0 +1,29 @@
+header {
+  background-color: rgb(98, 98, 201);
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+a {
+}
+
+.seccion1 {
+  background-color: rgb(131, 131, 197);
+}
+
+input {
+  width: 80%;
+}
+
+button {
+  border-radius: 10px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
