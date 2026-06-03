@@ -12,13 +12,14 @@ html {
   color: #222;
 }
 body {
+  background: #f8fafc;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
 header {
-  background-color: rgb(98, 98, 201);
+  background-color: #1e3a8a;
   width: 100%;
   display: flex;
   justify-content: flex-end;
@@ -27,18 +28,23 @@ header {
 
 header h1 {
   margin-left: 20px;
+  color: #eee;
 }
 
 .inicio {
   padding: 2px;
   margin-left: auto;
 }
-a {
+header a {
   padding: 10px;
+  color: #eee;
+}
+header a:hover {
+  color: #f97316;
 }
 
 .seccion1 {
-  background-color: rgb(131, 131, 197);
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
   color: white;
   text-align: justify;
   padding: 50px 20px;
@@ -72,8 +78,7 @@ a {
   padding: 10px 20px;
   border: none;
   border-radius: 8px;
-  background-color: white;
-  color: rgb(98, 98, 201);
+  background: white;
   font-weight: bold;
   cursor: pointer;
 }
@@ -83,17 +88,18 @@ a {
 }
 
 .seccion2 {
-  background-color: gray;
+  background: #f8fafc;
   height: 100%;
 }
 
 .repisa {
   display: flex;
-  gap: 50px;
+  gap: 36px;
+  flex-wrap: wrap;
 }
 
 footer {
-  background-color: black;
+  background: #111827;
   color: white;
   height: 40px;
   width: 100%;
