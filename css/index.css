@@ -82,6 +82,16 @@ a {
   background-color: #eee;
 }
 
+.seccion2 {
+  background-color: gray;
+  height: 100%;
+}
+
+.repisa {
+  display: flex;
+  gap: 50px;
+}
+
 footer {
   background-color: black;
   color: white;
