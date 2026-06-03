@@ -1,0 +1,38 @@
+<!ELEMENT biblioteca (autores, catalogo, favoritos?, estadisticas, contacto)>
+
+<!ELEMENT autores (autor+)>
+<!ELEMENT autor (nombre, nacionalidad?)>
+<!ATTLIST autor
+  id ID #REQUIRED
+>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT nacionalidad (#PCDATA)>
+
+<!ELEMENT catalogo (libro+)>
+<!ELEMENT libro (titulo, genero, anio, descripcion?, disponible)>
+<!ATTLIST libro
+  id ID #REQUIRED
+  autor IDREF #REQUIRED
+>
+
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT anio (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT disponible (#PCDATA)>
+
+<!ELEMENT favoritos (favorito*)>
+<!ELEMENT favorito EMPTY>
+<!ATTLIST favorito
+  libro IDREF #REQUIRED
+>
+
+<!ELEMENT estadisticas (totalLibros, totalAutores, librosFavoritos)>
+<!ELEMENT totalLibros (#PCDATA)>
+<!ELEMENT totalAutores (#PCDATA)>
+<!ELEMENT librosFavoritos (#PCDATA)>
+
+<!ELEMENT contacto (email, telefono?)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
