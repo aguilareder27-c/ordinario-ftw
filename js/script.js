@@ -9,6 +9,8 @@ xhttp.onload = function () {
 xhttp.open("GET", "./DB/biblioteca.xml");
 xhttp.send();
 
+const repisa = document.getElementsByClassName("repisa")[0];
+
 function mostrarLibros(libro) {
   let html = "";
 
@@ -16,6 +18,7 @@ function mostrarLibros(libro) {
 
   for (let i = 0; i < 5; i++) {
     const titulo = libro[i].getElementsByTagName("titulo")[0].textContent;
+    console.log(titulo);
 
     //const autor = libros[i].getElementsByTagName("AUTOR")[0].textContent;
 
@@ -31,7 +34,6 @@ function mostrarLibros(libro) {
             </div>
         `;
   }
-
-  document.getElementById("repisa").innerHTML = html;
+  repisa.innerHTML = html;
 }
 //<p>${autor}</p>
