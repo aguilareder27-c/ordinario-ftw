@@ -1,5 +1,6 @@
-```xml
+
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE biblioteca SYSTEM "DTD.dtd">
 <biblioteca>
   <autores>
     <autor id="a01"><nombre>Gabriel García Márquez</nombre><nacionalidad>Colombiana</nacionalidad></autor>
@@ -88,4 +89,3 @@
     <telefono>555-123-4567</telefono>
   </contacto>
 </biblioteca>
-```
