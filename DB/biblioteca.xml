@@ -1,17 +1,16 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE biblioteca SYSTEM "DTD.dtd">
 <biblioteca>
   <autores>
-    <autor id="a01"><nombre>Gabriel García Márquez</nombre><nacionalidad>Colombiana</nacionalidad></autor>
-    <autor id="a02"><nombre>George Orwell</nombre><nacionalidad>Británica</nacionalidad></autor>
-    <autor id="a03"><nombre>Jane Austen</nombre><nacionalidad>Británica</nacionalidad></autor>
-    <autor id="a04"><nombre>Mary Shelley</nombre><nacionalidad>Británica</nacionalidad></autor>
-    <autor id="a05"><nombre>Fiódor Dostoyevski</nombre><nacionalidad>Rusa</nacionalidad></autor>
-    <autor id="a06"><nombre>Miguel de Cervantes</nombre><nacionalidad>Española</nacionalidad></autor>
-    <autor id="a07"><nombre>Harper Lee</nombre><nacionalidad>Estadounidense</nacionalidad></autor>
-    <autor id="a08"><nombre>J.R.R. Tolkien</nombre><nacionalidad>Británica</nacionalidad></autor>
-    <autor id="a09"><nombre>J.K. Rowling</nombre><nacionalidad>Británica</nacionalidad></autor>
+    <autor id="a1"><nombre>Gabriel García Márquez</nombre><nacionalidad>Colombiana</nacionalidad></autor>
+    <autor id="a2"><nombre>George Orwell</nombre><nacionalidad>Británica</nacionalidad></autor>
+    <autor id="a3"><nombre>Jane Austen</nombre><nacionalidad>Británica</nacionalidad></autor>
+    <autor id="a4"><nombre>Mary Shelley</nombre><nacionalidad>Británica</nacionalidad></autor>
+    <autor id="a5"><nombre>Fiódor Dostoyevski</nombre><nacionalidad>Rusa</nacionalidad></autor>
+    <autor id="a6"><nombre>Miguel de Cervantes</nombre><nacionalidad>Española</nacionalidad></autor>
+    <autor id="a7"><nombre>Harper Lee</nombre><nacionalidad>Estadounidense</nacionalidad></autor>
+    <autor id="a8"><nombre>J.R.R. Tolkien</nombre><nacionalidad>Británica</nacionalidad></autor>
+    <autor id="a9"><nombre>J.K. Rowling</nombre><nacionalidad>Británica</nacionalidad></autor>
     <autor id="a10"><nombre>Umberto Eco</nombre><nacionalidad>Italiana</nacionalidad></autor>
     <autor id="a11"><nombre>Albert Camus</nombre><nacionalidad>Francesa</nacionalidad></autor>
     <autor id="a12"><nombre>Julio Cortázar</nombre><nacionalidad>Argentina</nacionalidad></autor>
@@ -36,15 +35,15 @@
   </autores>
 
   <catalogo>
-    <libro id="l01" autor="a01"><titulo>Cien años de soledad</titulo><genero>Realismo mágico</genero><anio>1967</anio><descripcion>Una saga familiar mítica en el pueblo de Macondo.</descripcion><disponible>si</disponible></libro>
-    <libro id="l02" autor="a02"><titulo>1984</titulo><genero>Distopía</genero><anio>1949</anio><descripcion>Una novela sobre vigilancia, poder y manipulación política.</descripcion><disponible>si</disponible></libro>
-    <libro id="l03" autor="a03"><titulo>Orgullo y prejuicio</titulo><genero>Novela romántica</genero><anio>1813</anio><descripcion>Un clásico sobre amor, clase social y malentendidos.</descripcion><disponible>si</disponible></libro>
-    <libro id="l04" autor="a04"><titulo>Frankenstein</titulo><genero>Ciencia ficción</genero><anio>1818</anio><descripcion>Una reflexión sobre la creación, la soledad y la responsabilidad.</descripcion><disponible>no</disponible></libro>
-    <libro id="l05" autor="a05"><titulo>Crimen y castigo</titulo><genero>Novela psicológica</genero><anio>1866</anio><descripcion>Un profundo retrato de culpa, moral y redención.</descripcion><disponible>si</disponible></libro>
-    <libro id="l06" autor="a06"><titulo>Don Quijote de la Mancha</titulo><genero>Novela clásica</genero><anio>1605</anio><descripcion>La aventura inmortal de un caballero idealista y su escudero.</descripcion><disponible>si</disponible></libro>
-    <libro id="l07" autor="a07"><titulo>Matar a un ruiseñor</titulo><genero>Drama</genero><anio>1960</anio><descripcion>Una historia sobre justicia, racismo e infancia.</descripcion><disponible>si</disponible></libro>
-    <libro id="l08" autor="a08"><titulo>El señor de los anillos</titulo><genero>Fantasía épica</genero><anio>1954</anio><descripcion>Una gran aventura sobre amistad, poder y sacrificio.</descripcion><disponible>no</disponible></libro>
-    <libro id="l09" autor="a09"><titulo>Harry Potter y la piedra filosofal</titulo><genero>Fantasía</genero><anio>1997</anio><descripcion>El inicio de una saga mágica de aprendizaje y valentía.</descripcion><disponible>si</disponible></libro>
+    <libro id="l1" autor="a1"><titulo>Cien años de soledad</titulo><genero>Realismo mágico</genero><anio>1967</anio><descripcion>Una saga familiar mítica en el pueblo de Macondo.</descripcion><disponible>si</disponible></libro>
+    <libro id="l2" autor="a2"><titulo>1984</titulo><genero>Distopía</genero><anio>1949</anio><descripcion>Una novela sobre vigilancia, poder y manipulación política.</descripcion><disponible>si</disponible></libro>
+    <libro id="l3" autor="a3"><titulo>Orgullo y prejuicio</titulo><genero>Novela romántica</genero><anio>1813</anio><descripcion>Un clásico sobre amor, clase social y malentendidos.</descripcion><disponible>si</disponible></libro>
+    <libro id="l4" autor="a4"><titulo>Frankenstein</titulo><genero>Ciencia ficción</genero><anio>1818</anio><descripcion>Una reflexión sobre la creación, la soledad y la responsabilidad.</descripcion><disponible>no</disponible></libro>
+    <libro id="l5" autor="a5"><titulo>Crimen y castigo</titulo><genero>Novela psicológica</genero><anio>1866</anio><descripcion>Un profundo retrato de culpa, moral y redención.</descripcion><disponible>si</disponible></libro>
+    <libro id="l6" autor="a6"><titulo>Don Quijote de la Mancha</titulo><genero>Novela clásica</genero><anio>1605</anio><descripcion>La aventura inmortal de un caballero idealista y su escudero.</descripcion><disponible>si</disponible></libro>
+    <libro id="l7" autor="a7"><titulo>Matar a un ruiseñor</titulo><genero>Drama</genero><anio>1960</anio><descripcion>Una historia sobre justicia, racismo e infancia.</descripcion><disponible>si</disponible></libro>
+    <libro id="l8" autor="a8"><titulo>El señor de los anillos</titulo><genero>Fantasía épica</genero><anio>1954</anio><descripcion>Una gran aventura sobre amistad, poder y sacrificio.</descripcion><disponible>no</disponible></libro>
+    <libro id="l9" autor="a9"><titulo>Harry Potter y la piedra filosofal</titulo><genero>Fantasía</genero><anio>1997</anio><descripcion>El inicio de una saga mágica de aprendizaje y valentía.</descripcion><disponible>si</disponible></libro>
     <libro id="l10" autor="a10"><titulo>El nombre de la rosa</titulo><genero>Misterio histórico</genero><anio>1980</anio><descripcion>Un crimen medieval entre libros, poder y conocimiento.</descripcion><disponible>si</disponible></libro>
     <libro id="l11" autor="a11"><titulo>El extranjero</titulo><genero>Filosófica</genero><anio>1942</anio><descripcion>Una obra clave del absurdo y la indiferencia existencial.</descripcion><disponible>si</disponible></libro>
     <libro id="l12" autor="a12"><titulo>Rayuela</titulo><genero>Novela experimental</genero><anio>1963</anio><descripcion>Una novela abierta y lúdica sobre amor, búsqueda y lenguaje.</descripcion><disponible>no</disponible></libro>
@@ -69,9 +68,9 @@
   </catalogo>
 
   <favoritos>
-    <favorito libro="l01"/>
-    <favorito libro="l02"/>
-    <favorito libro="l06"/>
+    <favorito libro="l1"/>
+    <favorito libro="l2"/>
+    <favorito libro="l6"/>
     <favorito libro="l10"/>
     <favorito libro="l15"/>
     <favorito libro="l18"/>
@@ -85,7 +84,7 @@
   </estadisticas>
 
   <contacto>
-    <email>biblioteca@example.com</email>
-    <telefono>555-123-4567</telefono>
+    <email>biblioteca@ex.com</email>
+    <telefono>12345678</telefono>
   </contacto>
 </biblioteca>
