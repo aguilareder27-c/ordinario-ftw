@@ -1,0 +1,91 @@
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+  <autores>
+    <autor id="a01"><nombre>Gabriel García Márquez</nombre><nacionalidad>Colombiana</nacionalidad></autor>
+    <autor id="a02"><nombre>George Orwell</nombre><nacionalidad>Británica</nacionalidad></autor>
+    <autor id="a03"><nombre>Jane Austen</nombre><nacionalidad>Británica</nacionalidad></autor>
+    <autor id="a04"><nombre>Mary Shelley</nombre><nacionalidad>Británica</nacionalidad></autor>
+    <autor id="a05"><nombre>Fiódor Dostoyevski</nombre><nacionalidad>Rusa</nacionalidad></autor>
+    <autor id="a06"><nombre>Miguel de Cervantes</nombre><nacionalidad>Española</nacionalidad></autor>
+    <autor id="a07"><nombre>Harper Lee</nombre><nacionalidad>Estadounidense</nacionalidad></autor>
+    <autor id="a08"><nombre>J.R.R. Tolkien</nombre><nacionalidad>Británica</nacionalidad></autor>
+    <autor id="a09"><nombre>J.K. Rowling</nombre><nacionalidad>Británica</nacionalidad></autor>
+    <autor id="a10"><nombre>Umberto Eco</nombre><nacionalidad>Italiana</nacionalidad></autor>
+    <autor id="a11"><nombre>Albert Camus</nombre><nacionalidad>Francesa</nacionalidad></autor>
+    <autor id="a12"><nombre>Julio Cortázar</nombre><nacionalidad>Argentina</nacionalidad></autor>
+    <autor id="a13"><nombre>Isabel Allende</nombre><nacionalidad>Chilena</nacionalidad></autor>
+    <autor id="a14"><nombre>Aldous Huxley</nombre><nacionalidad>Británica</nacionalidad></autor>
+    <autor id="a15"><nombre>Ray Bradbury</nombre><nacionalidad>Estadounidense</nacionalidad></autor>
+    <autor id="a16"><nombre>Herman Melville</nombre><nacionalidad>Estadounidense</nacionalidad></autor>
+    <autor id="a17"><nombre>Virginia Woolf</nombre><nacionalidad>Británica</nacionalidad></autor>
+    <autor id="a18"><nombre>Franz Kafka</nombre><nacionalidad>Checa</nacionalidad></autor>
+    <autor id="a19"><nombre>Leo Tolstói</nombre><nacionalidad>Rusa</nacionalidad></autor>
+    <autor id="a20"><nombre>Homer</nombre><nacionalidad>Griega</nacionalidad></autor>
+    <autor id="a21"><nombre>Mark Twain</nombre><nacionalidad>Estadounidense</nacionalidad></autor>
+    <autor id="a22"><nombre>Oscar Wilde</nombre><nacionalidad>Irlandesa</nacionalidad></autor>
+    <autor id="a23"><nombre>Emily Brontë</nombre><nacionalidad>Británica</nacionalidad></autor>
+    <autor id="a24"><nombre>Victor Hugo</nombre><nacionalidad>Francesa</nacionalidad></autor>
+    <autor id="a25"><nombre>Chinua Achebe</nombre><nacionalidad>Nigeriana</nacionalidad></autor>
+    <autor id="a26"><nombre>Arthur Conan Doyle</nombre><nacionalidad>Británica</nacionalidad></autor>
+    <autor id="a27"><nombre>Agatha Christie</nombre><nacionalidad>Británica</nacionalidad></autor>
+    <autor id="a28"><nombre>Mario Vargas Llosa</nombre><nacionalidad>Peruana</nacionalidad></autor>
+    <autor id="a29"><nombre>Laura Esquivel</nombre><nacionalidad>Mexicana</nacionalidad></autor>
+    <autor id="a30"><nombre>José Saramago</nombre><nacionalidad>Portuguesa</nacionalidad></autor>
+  </autores>
+
+  <catalogo>
+    <libro id="l01" autor="a01"><titulo>Cien años de soledad</titulo><genero>Realismo mágico</genero><anio>1967</anio><descripcion>Una saga familiar mítica en el pueblo de Macondo.</descripcion><disponible>si</disponible></libro>
+    <libro id="l02" autor="a02"><titulo>1984</titulo><genero>Distopía</genero><anio>1949</anio><descripcion>Una novela sobre vigilancia, poder y manipulación política.</descripcion><disponible>si</disponible></libro>
+    <libro id="l03" autor="a03"><titulo>Orgullo y prejuicio</titulo><genero>Novela romántica</genero><anio>1813</anio><descripcion>Un clásico sobre amor, clase social y malentendidos.</descripcion><disponible>si</disponible></libro>
+    <libro id="l04" autor="a04"><titulo>Frankenstein</titulo><genero>Ciencia ficción</genero><anio>1818</anio><descripcion>Una reflexión sobre la creación, la soledad y la responsabilidad.</descripcion><disponible>no</disponible></libro>
+    <libro id="l05" autor="a05"><titulo>Crimen y castigo</titulo><genero>Novela psicológica</genero><anio>1866</anio><descripcion>Un profundo retrato de culpa, moral y redención.</descripcion><disponible>si</disponible></libro>
+    <libro id="l06" autor="a06"><titulo>Don Quijote de la Mancha</titulo><genero>Novela clásica</genero><anio>1605</anio><descripcion>La aventura inmortal de un caballero idealista y su escudero.</descripcion><disponible>si</disponible></libro>
+    <libro id="l07" autor="a07"><titulo>Matar a un ruiseñor</titulo><genero>Drama</genero><anio>1960</anio><descripcion>Una historia sobre justicia, racismo e infancia.</descripcion><disponible>si</disponible></libro>
+    <libro id="l08" autor="a08"><titulo>El señor de los anillos</titulo><genero>Fantasía épica</genero><anio>1954</anio><descripcion>Una gran aventura sobre amistad, poder y sacrificio.</descripcion><disponible>no</disponible></libro>
+    <libro id="l09" autor="a09"><titulo>Harry Potter y la piedra filosofal</titulo><genero>Fantasía</genero><anio>1997</anio><descripcion>El inicio de una saga mágica de aprendizaje y valentía.</descripcion><disponible>si</disponible></libro>
+    <libro id="l10" autor="a10"><titulo>El nombre de la rosa</titulo><genero>Misterio histórico</genero><anio>1980</anio><descripcion>Un crimen medieval entre libros, poder y conocimiento.</descripcion><disponible>si</disponible></libro>
+    <libro id="l11" autor="a11"><titulo>El extranjero</titulo><genero>Filosófica</genero><anio>1942</anio><descripcion>Una obra clave del absurdo y la indiferencia existencial.</descripcion><disponible>si</disponible></libro>
+    <libro id="l12" autor="a12"><titulo>Rayuela</titulo><genero>Novela experimental</genero><anio>1963</anio><descripcion>Una novela abierta y lúdica sobre amor, búsqueda y lenguaje.</descripcion><disponible>no</disponible></libro>
+    <libro id="l13" autor="a13"><titulo>La casa de los espíritus</titulo><genero>Realismo mágico</genero><anio>1982</anio><descripcion>Una historia familiar marcada por política, memoria y fantasmas.</descripcion><disponible>si</disponible></libro>
+    <libro id="l14" autor="a14"><titulo>Un mundo feliz</titulo><genero>Distopía</genero><anio>1932</anio><descripcion>Una sociedad futurista dominada por placer, control y conformismo.</descripcion><disponible>si</disponible></libro>
+    <libro id="l15" autor="a15"><titulo>Fahrenheit 451</titulo><genero>Ciencia ficción</genero><anio>1953</anio><descripcion>Una advertencia sobre censura, libros y pensamiento crítico.</descripcion><disponible>si</disponible></libro>
+    <libro id="l16" autor="a16"><titulo>Moby Dick</titulo><genero>Aventura</genero><anio>1851</anio><descripcion>La obsesiva persecución de una ballena blanca.</descripcion><disponible>no</disponible></libro>
+    <libro id="l17" autor="a17"><titulo>La señora Dalloway</titulo><genero>Modernismo</genero><anio>1925</anio><descripcion>Un día en la vida de Clarissa Dalloway y sus recuerdos.</descripcion><disponible>si</disponible></libro>
+    <libro id="l18" autor="a18"><titulo>La metamorfosis</titulo><genero>Novela corta</genero><anio>1915</anio><descripcion>Una inquietante transformación que revela la alienación humana.</descripcion><disponible>si</disponible></libro>
+    <libro id="l19" autor="a19"><titulo>Guerra y paz</titulo><genero>Novela histórica</genero><anio>1869</anio><descripcion>Una monumental narración sobre guerra, familia y destino.</descripcion><disponible>si</disponible></libro>
+    <libro id="l20" autor="a20"><titulo>La Odisea</titulo><genero>Épica</genero><anio>-800</anio><descripcion>El viaje de regreso de Odiseo tras la guerra de Troya.</descripcion><disponible>si</disponible></libro>
+    <libro id="l21" autor="a21"><titulo>Las aventuras de Huckleberry Finn</titulo><genero>Aventura</genero><anio>1884</anio><descripcion>Una crítica social narrada como viaje por el río Misisipi.</descripcion><disponible>si</disponible></libro>
+    <libro id="l22" autor="a22"><titulo>El retrato de Dorian Gray</titulo><genero>Novela gótica</genero><anio>1890</anio><descripcion>Una historia sobre belleza, corrupción y decadencia moral.</descripcion><disponible>no</disponible></libro>
+    <libro id="l23" autor="a23"><titulo>Cumbres borrascosas</titulo><genero>Romance gótico</genero><anio>1847</anio><descripcion>Una pasión tormentosa entre amor, venganza y tragedia.</descripcion><disponible>si</disponible></libro>
+    <libro id="l24" autor="a24"><titulo>Los miserables</titulo><genero>Novela histórica</genero><anio>1862</anio><descripcion>Una historia de redención, justicia y pobreza en Francia.</descripcion><disponible>si</disponible></libro>
+    <libro id="l25" autor="a25"><titulo>Todo se desmorona</titulo><genero>Novela histórica</genero><anio>1958</anio><descripcion>Una mirada poderosa al choque colonial en África.</descripcion><disponible>si</disponible></libro>
+    <libro id="l26" autor="a26"><titulo>El sabueso de los Baskerville</titulo><genero>Misterio</genero><anio>1902</anio><descripcion>Uno de los casos más famosos de Sherlock Holmes.</descripcion><disponible>si</disponible></libro>
+    <libro id="l27" autor="a27"><titulo>Asesinato en el Orient Express</titulo><genero>Misterio</genero><anio>1934</anio><descripcion>Hercule Poirot investiga un crimen en un tren de lujo.</descripcion><disponible>no</disponible></libro>
+    <libro id="l28" autor="a28"><titulo>La ciudad y los perros</titulo><genero>Novela social</genero><anio>1963</anio><descripcion>Una crítica intensa a la violencia y disciplina militar.</descripcion><disponible>si</disponible></libro>
+    <libro id="l29" autor="a29"><titulo>Como agua para chocolate</titulo><genero>Realismo mágico</genero><anio>1989</anio><descripcion>Una novela donde cocina, amor y tradición se mezclan.</descripcion><disponible>si</disponible></libro>
+    <libro id="l30" autor="a30"><titulo>Ensayo sobre la ceguera</titulo><genero>Novela filosófica</genero><anio>1995</anio><descripcion>Una parábola sobre fragilidad social y condición humana.</descripcion><disponible>si</disponible></libro>
+  </catalogo>
+
+  <favoritos>
+    <favorito libro="l01"/>
+    <favorito libro="l02"/>
+    <favorito libro="l06"/>
+    <favorito libro="l10"/>
+    <favorito libro="l15"/>
+    <favorito libro="l18"/>
+    <favorito libro="l24"/>
+  </favoritos>
+
+  <estadisticas>
+    <totalLibros>30</totalLibros>
+    <totalAutores>30</totalAutores>
+    <librosFavoritos>7</librosFavoritos>
+  </estadisticas>
+
+  <contacto>
+    <email>biblioteca@example.com</email>
+    <telefono>555-123-4567</telefono>
+  </contacto>
+</biblioteca>
+```
