@@ -2,21 +2,20 @@ const xhttp = new XMLHttpRequest();
 console.log(xhttp);
 xhttp.onload = function () {
   const xmlDoc = xhttp.responseXML;
-  //console.log(xmlDoc);
-  const catalogo = xmlDoc.getElementsByTagName("catalogo");
-  console.log(catalogo);
-  mostrarLibros(catalogo);
+  const libro = xmlDoc.getElementsByTagName("libro");
+  console.log(libro);
+  mostrarLibros(libro);
 };
 xhttp.open("GET", "./DB/biblioteca.xml");
 xhttp.send();
 
-function mostrarLibros(catalogo) {
+function mostrarLibros(libro) {
   let html = "";
 
-  console.log(catalogo);
+  console.log(libro);
 
   for (let i = 0; i < 5; i++) {
-    const titulo = catalogo[i].getElementsByTagName("titulo")[0].textContent;
+    const titulo = libro[i].getElementsByTagName("titulo")[0].textContent;
 
     //const autor = libros[i].getElementsByTagName("AUTOR")[0].textContent;
 
