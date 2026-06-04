@@ -8,7 +8,7 @@ xhttp.onload = function () {
   console.log(autors);
   mostrarLibros(libro, autors);
 };
-xhttp.open("GET", "./DB/biblioteca.xml");
+xhttp.open("GET", "../DB/biblioteca.xml");
 xhttp.send();
 
 const repisa = document.getElementsByClassName("repisa")[0];
