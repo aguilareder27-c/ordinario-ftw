@@ -18,12 +18,14 @@ function mostrarLibros(libro, autors) {
 
   //console.log(libro);
 
-  for (let i = 0; i < 29; i++) {
+  for (let i = 0; i < libro.length; i++) {
     const titulo = libro[i].getElementsByTagName("titulo")[0].textContent;
+    const id = libro[i].getAttribute("id");
     //console.log(titulo);
     const autor = autors[i].getElementsByTagName("nombre")[0].textContent;
 
     html += `
+    <a href="detalle libro.html?id=${id}">
             <div class="libro">
               <div class="portada">
                 <img src="/img/book.png"
@@ -34,6 +36,7 @@ function mostrarLibros(libro, autors) {
                 <h3>${titulo}</h3>
                 <p>${autor}</p>
             </div>
+            </a>
         `;
   }
   repisa.innerHTML = html;
