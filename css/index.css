@@ -89,20 +89,48 @@ header a:hover {
 
 .seccion2 {
   background: #f8fafc;
-  height: 100%;
+  padding: 20px 0;
 }
 
 .repisa {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.repisa .libro {
+  background: #2b2b2b;
+  border: 1px solid #444;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10%;
+}
+
+.libro .portada {
+  height: 110px;
+  background: #dbeafe;
   display: flex;
-  gap: 36px;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.libro h3 {
+  color: white;
+  font-size: 16px;
+  margin: 10px 12px 2px;
+}
+
+.libro p {
+  color: #ccc;
+  margin: 0 12px 12px;
 }
 
 footer {
   background: #111827;
   color: white;
-  height: 40px;
+  min-height: 40px;
   width: 100%;
-  position: absolute;
-  bottom: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 8px;
+  margin-top: auto;
 }
