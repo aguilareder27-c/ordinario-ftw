@@ -25,15 +25,14 @@ function mostrarLibros(libro, autors) {
 
     html += `
             <div class="libro">
+              <div class="portada">
                 <img src="/img/book.png"
                      alt="Portada"
                      width="80">
+              </div>
 
                 <h3>${titulo}</h3>
                 <p>${autor}</p>
-
-
-               
             </div>
         `;
   }
