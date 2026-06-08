@@ -22,7 +22,7 @@ header {
   background-color: #1e3a8a;
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -35,11 +35,21 @@ header h1 {
   padding: 2px;
   margin-left: auto;
 }
-header a {
-  padding: 10px;
-  color: #eee;
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
 }
-header a:hover {
+header nav a {
+  display: block;
+  padding: 14px 10px;
+  color: #eee;
+  text-decoration: none;
+}
+header nav a:hover {
   color: #f97316;
 }
 .seccion2 {

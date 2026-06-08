@@ -22,7 +22,7 @@ header {
   background-color: #1e3a8a;
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -35,11 +35,21 @@ header h1 {
   padding: 2px;
   margin-left: auto;
 }
-header a {
-  padding: 10px;
-  color: #eee;
+header nav ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
 }
-header a:hover {
+header nav a {
+  display: block;
+  padding: 14px 10px;
+  color: #eee;
+  text-decoration: none;
+}
+header nav a:hover {
   color: #f97316;
 }
 
@@ -62,33 +72,28 @@ header a:hover {
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
   max-width: 520px;
 }
-
 .contacto-info h2 {
   margin: 0 0 22px;
   color: #111827;
 }
-
 .contacto-info .dato {
   display: flex;
   flex-direction: column;
   gap: 4px;
   margin: 0 0 20px;
 }
-
 .contacto-info .etiqueta {
   color: #6b7280;
   font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
 }
-
 .contacto-info a {
   color: #1e3a8a;
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
 }
-
 .contacto-info a:hover {
   color: #f97316;
 }
