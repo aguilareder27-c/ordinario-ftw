@@ -76,6 +76,11 @@ header a:hover {
 }
 
 .libro p {
-  color: #ccc;
-  margin: 0 12px 12px;
+   color: #dbeafe;
+  font-style: italic;
+  margin: 12px 12px 12px;
+}
+.libro .nacionalidad {
+  color: #dbeafe;
+  font-style: italic;
 }
