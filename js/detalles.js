@@ -48,7 +48,6 @@ function mostrarLibros(libro, autors) {
 
             <div class="etiquetas">
                 <span>${gen}</span>
-                <span>${anio}</span>
                 <span class="${dispClase}">${dispTexto}</span>
             </div>
 
