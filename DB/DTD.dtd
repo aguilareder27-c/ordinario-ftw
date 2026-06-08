@@ -1,4 +1,4 @@
-<!ELEMENT biblioteca (autores, catalogo, favoritos?, estadisticas, contacto)>
+<!ELEMENT biblioteca (autores, catalogo, favoritos?, estadisticas, contacto, usuarios?)>
 
 <!ELEMENT autores (autor+)>
 <!ELEMENT autor (nombre, nacionalidad?)>
@@ -36,3 +36,7 @@
 <!ELEMENT contacto (email, telefono?)>
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT telefono (#PCDATA)>
+
+<!ELEMENT usuarios (usuario+)>
+<!ELEMENT usuario (nombre, password)>
+<!ELEMENT password (#PCDATA)>

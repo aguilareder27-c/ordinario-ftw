@@ -87,4 +87,8 @@
     <email>biblioteca@ex.com</email>
     <telefono>12345678</telefono>
   </contacto>
+  <usuarios>
+    <usuario><nombre>admin</nombre><password>1234</password></usuario>
+    <usuario><nombre>Eder</nombre><password>2721</password></usuario>
+  </usuarios>
 </biblioteca>
