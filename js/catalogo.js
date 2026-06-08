@@ -7,7 +7,7 @@ xhttp.onload = function () {
   console.log(libro);
   console.log(autors);
   llenarGeneros(libro);
-  mostrarLibros(libro, autors,"todos");
+  mostrarLibros(libro, autors, "todos");
 
   const filtro = document.getElementById("filtroGenero");
   filtro.addEventListener("change", function () {
@@ -37,8 +37,7 @@ function llenarGeneros(libro) {
   }
 }
 
-
-function mostrarLibros(libro, autors,genero) {
+function mostrarLibros(libro, autors, genero) {
   let html = "";
 
   //console.log(libro);
@@ -57,7 +56,7 @@ function mostrarLibros(libro, autors,genero) {
     <a href="detalle libro.html?id=${id}">
             <div class="libro">
               <div class="portada">
-                <img src="/img/book.png"
+                <img src="../img/book.png"
                      alt="Portada"
                      width="80">
               </div>

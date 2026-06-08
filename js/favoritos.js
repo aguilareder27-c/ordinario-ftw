@@ -27,7 +27,7 @@ function mostrarLibros(libro, fav) {
         html += `
             <div class="libro">
               <div class="portada">
-                <img src="/img/book.png"
+                <img src="../img/book.png"
                      alt="Portada"
                      width="80">
               </div>

@@ -18,7 +18,7 @@ xhttp.onload = function () {
     buscar(libro, autors, buscador.value);
   });
 };
-xhttp.open("GET", "../DB/biblioteca.xml");
+xhttp.open("GET", "DB/biblioteca.xml");
 xhttp.send();
 
 const repisa = document.getElementsByClassName("repisa")[0];
@@ -36,7 +36,7 @@ function mostrarLibros(libro, autors) {
     html += `
             <div class="libro">
               <div class="portada">
-                <img src="/img/book.png"
+                <img src="img/book.png"
                      alt="Portada"
                      width="80">
               </div>
@@ -53,7 +53,9 @@ function mostrarLibros(libro, autors) {
   for (let i = 0; i < 6; i++) {
     const titulo = libro[i].getElementsByTagName("titulo")[0].textContent;
     const autor = autors[i].getElementsByTagName("nombre")[0].textContent;
+    const id = libro[i].getAttribute("id");
     html += `
+    <a href="paginas/detalle libro.html?id=${id}">
             <div class="libro">
               <div class="portada">
                 <img src="/img/book.png"
@@ -81,9 +83,11 @@ function buscar(libro, autors, texto) {
   for (let i = 0; i < libro.length; i++) {
     const titulo = libro[i].getElementsByTagName("titulo")[0].textContent;
     const autor = autors[i].getElementsByTagName("nombre")[0].textContent;
+    const id = libro[i].getAttribute("id");
 
     if (titulo.toLowerCase().includes(t) || autor.toLowerCase().includes(t)) {
       html += `
+      <a href="paginas/detalle libro.html?id=${id}">
             <div class="libro">
               <div class="portada">
                 <img src="/img/book.png"

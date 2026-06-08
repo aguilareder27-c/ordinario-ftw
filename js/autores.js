@@ -19,12 +19,13 @@ function mostrarLibros(autors) {
   for (let i = 0; i < autors.length; i++) {
     //console.log(titulo);
     const autor = autors[i].getElementsByTagName("nombre")[0].textContent;
-    const nacionalidad = autors[i].getElementsByTagName("nacionalidad")[0].textContent;
+    const nacionalidad =
+      autors[i].getElementsByTagName("nacionalidad")[0].textContent;
 
     html += `
             <div class="libro">
               <div class="portada">
-                <img src="/img/persona.png"
+                <img src="../img/persona.png"
                      alt="Portada"
                      width="80">
               </div>

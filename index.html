@@ -9,12 +9,17 @@
   <body>
     <header>
       <h1>BiblioDigital</h1>
-      <a class="inicio" href="Index.html">Inicio</a>
-      <a href="paginas/catalogo.html">Catalogo</a>
-      <a href="paginas/autores.html">Autores</a>
-      <a href="paginas/favoritos.html">Favoritos</a>
-      <a href="paginas/estadisticas.html">Estadisticas</a>
-      <a href="paginas/contacto.html">Contacto</a>
+      <nav aria-label="Navegacion principal">
+        <ul>
+          <li><a href="Index.html">Inicio</a></li>
+          <li><a href="paginas/catalogo.html">Catalogo</a></li>
+          <li><a href="paginas/autores.html">Autores</a></li>
+          <li><a href="paginas/favoritos.html">Favoritos</a></li>
+          <li><a href="paginas/estadisticas.html">Estadisticas</a></li>
+          <li><a href="paginas/contacto.html">Contacto</a></li>
+          <li><a href="paginas/acceso.html">Acceso</a></li>
+        </ul>
+      </nav>
     </header>
     <section class="seccion1">
       <h1>Bienvenido a la Biblioteca digital</h1>
@@ -22,7 +27,11 @@
       <search>
         <form role="search">
           <label>
-            <input type="text" id="buscador" placeholder="Buscar por titulo o autor..." />
+            <input
+              type="text"
+              id="buscador"
+              placeholder="Buscar por titulo o autor..."
+            />
             <button>Buscar</button>
           </label>
         </form>
@@ -32,7 +41,7 @@
       <h1>Destacados</h1>
 
       <div class="repisa">
-        <script src="/js/script.js"></script>
+        <script src="js/script.js"></script>
       </div>
     </section>
 
