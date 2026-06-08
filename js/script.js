@@ -28,26 +28,6 @@ function mostrarLibros(libro, autors) {
 
   //console.log(libro);
 
-  for (let i = 0; i < 6; i++) {
-    const titulo = libro[i].getElementsByTagName("titulo")[0].textContent;
-    //console.log(titulo);
-    const autor = autors[i].getElementsByTagName("nombre")[0].textContent;
-
-    html += `
-            <div class="libro">
-              <div class="portada">
-                <img src="img/book.png"
-                     alt="Portada"
-                     width="80">
-              </div>
-
-                <h3>${titulo}</h3>
-                <p>${autor}</p>
-            </div>
-        `;
-  }
-  repisa.innerHTML = html;
-}
 function mostrarLibros(libro, autors) {
   let html = "";
   for (let i = 0; i < 6; i++) {
@@ -90,7 +70,7 @@ function buscar(libro, autors, texto) {
       <a href="paginas/detalle libro.html?id=${id}">
             <div class="libro">
               <div class="portada">
-                <img src="/img/book.png"
+                <img src="img/book.png"
                      alt="Portada"
                      width="80">
               </div>
