@@ -12,7 +12,7 @@ filtrado en las páginas que muestran datos.
 ## Enlaces
 
 - Sitio en GitHub Pages: [https://aguilareder27-c.github.io/ordinario-ftw/]
-- Video de navegación (YouTube): []
+- Video de navegación (YouTube): [https://youtu.be/e7cayAnjPbs]
 
 ## Páginas (8)
 
@@ -102,4 +102,4 @@ XML); no es un mecanismo de seguridad real.
 ## Prompts utilizados
 
 -Para el XML: genera un archivo xml con datos usando el siguiente dtd.[inserte el DTD.dtd]
--Para los mockups:no quiero que programes, solo quiero los mockups visuales, es para mi clase de fundamentos web en html,[inserte imagen con las paginas]
+-Para los mockups:no quiero que programes, solo quiero los mockups visuales, es para mi clase de fundamentos web en html,[inserte la imagen con las paginas a necesitar]
