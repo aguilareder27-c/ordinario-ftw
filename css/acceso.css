@@ -1,0 +1,52 @@
+.form-acceso {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 28px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  max-width: 420px;
+}
+.form-acceso p {
+  margin: 0 0 16px;
+}
+.form-acceso label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+.form-acceso input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #1e3a8a;
+  border-radius: 8px;
+  font-size: 15px;
+}
+.form-acceso button {
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.form-acceso button:hover {
+  background: #f97316;
+}
+.mensaje {
+  margin-top: 16px;
+  font-weight: bold;
+}
+.mensaje.ok {
+  color: #166534;
+}
+.mensaje.error {
+  color: #b91c1c;
+}
+
+@media (max-width: 700px) {
+  .form-acceso {
+    max-width: 100%;
+  }
+}

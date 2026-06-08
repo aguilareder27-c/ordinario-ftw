@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BiblioDigital - Acceso</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/acceso.css" />
+  </head>
+  <body>
+    <header>
+      <h1>BiblioDigital</h1>
+      <nav aria-label="Navegacion principal">
+        <ul>
+          <li><a href="../Index.html">Inicio</a></li>
+          <li><a href="catalogo.html">Catalogo</a></li>
+          <li><a href="autores.html">Autores</a></li>
+          <li><a href="favoritos.html">Favoritos</a></li>
+          <li><a href="estadisticas.html">Estadisticas</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="acceso.html">Acceso</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="seccion2">
+      <h1>Acceso</h1>
+      <form id="formAcceso" class="form-acceso">
+        <p>
+          <label for="usuario">Usuario</label>
+          <input
+            type="text"
+            id="usuario"
+            name="usuario"
+            placeholder="Tu usuario"
+          />
+        </p>
+        <p>
+          <label for="password">Contraseña</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Tu contraseña"
+          />
+        </p>
+        <button type="submit">Entrar</button>
+      </form>
+      <p id="mensaje" class="mensaje"></p>
+      <script src="../js/acceso.js"></script>
+    </main>
+
+    <footer class="footer">Luis Eder Aguilar Martinez</footer>
+  </body>
+</html>
