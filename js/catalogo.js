@@ -6,19 +6,48 @@ xhttp.onload = function () {
   const autors = xmlDoc.getElementsByTagName("autor");
   console.log(libro);
   console.log(autors);
-  mostrarLibros(libro, autors);
+  llenarGeneros(libro);
+  mostrarLibros(libro, autors,"todos");
+
+  const filtro = document.getElementById("filtroGenero");
+  filtro.addEventListener("change", function () {
+    mostrarLibros(libro, autors, filtro.value);
+  });
 };
 xhttp.open("GET", "../DB/biblioteca.xml");
 xhttp.send();
 
 const repisa = document.getElementsByClassName("repisa")[0];
+function llenarGeneros(libro) {
+  const filtro = document.getElementById("filtroGenero");
+  const generos = [];
 
-function mostrarLibros(libro, autors) {
+  for (let i = 0; i < libro.length; i++) {
+    const gen = libro[i].getElementsByTagName("genero")[0].textContent;
+    if (generos.indexOf(gen) === -1) {
+      generos.push(gen);
+    }
+  }
+
+  for (let i = 0; i < generos.length; i++) {
+    const opcion = document.createElement("option");
+    opcion.value = generos[i];
+    opcion.textContent = generos[i];
+    filtro.appendChild(opcion);
+  }
+}
+
+
+function mostrarLibros(libro, autors,genero) {
   let html = "";
 
   //console.log(libro);
 
   for (let i = 0; i < libro.length; i++) {
+    const gen = libro[i].getElementsByTagName("genero")[0].textContent;
+    if (genero !== "todos" && gen !== genero) {
+      continue;
+    }
     const titulo = libro[i].getElementsByTagName("titulo")[0].textContent;
     const id = libro[i].getAttribute("id");
     //console.log(titulo);
