@@ -25,8 +25,13 @@ function mostrarLibros(libro, autors) {
     if (libro[i].getAttribute("id") == parametro) {
       const titulo = libro[i].getElementsByTagName("titulo")[0].textContent;
       const autor = autors[i].getElementsByTagName("nombre")[0].textContent;
+      const nacionalidad = autors[i].getElementsByTagName("nacionalidad")[0].textContent;
       const descri = libro[i].getElementsByTagName("descripcion")[0].textContent;
       const gen = libro[i].getElementsByTagName("genero")[0].textContent;
+      const anio = libro[i].getElementsByTagName("anio")[0].textContent;
+      const disponible = libro[i].getElementsByTagName("disponible")[0].textContent;
+      const dispTexto = disponible == "si" ? "Disponible" : "No disponible";
+      const dispClase = disponible == "si" ? "disponible-si" : "disponible-no";
       console.log(titulo, autor,descri,gen);
       html += `
         <div class="libro-detalle">
@@ -34,12 +39,14 @@ function mostrarLibros(libro, autors) {
             <img src="/img/book.png" alt="Portada del libro">
           </div>
 
-          <div class="info-libro">
+           <div class="info-libro">
             <h2>${titulo}</h2>
-            <p class="autor">${autor}</p>
+            <p class="autor">${autor} · ${nacionalidad} · ${anio}</p>
 
             <div class="etiquetas">
                 <span>${gen}</span>
+                <span>${anio}</span>
+                <span class="${dispClase}">${dispTexto}</span>
             </div>
 
             <p class="descripcion">

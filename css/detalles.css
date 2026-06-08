@@ -43,7 +43,8 @@ header a:hover {
   color: #f97316;
 }
 .seccion2 {
-  max-width: 1100px;
+  width: 92%;
+  max-width: 1200px;
   margin: 30px auto;
   padding: 20px;
 }
@@ -67,16 +68,16 @@ header a:hover {
   background: white;
   border: 1px solid #e5e7eb;
   border-radius: 14px;
-  padding: 28px;
+  padding: 40px;
   display: flex;
-  gap: 24px;
+  gap: 40px;
   align-items: flex-start;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
 }
 
 .libro-detalle .portada {
-  width: 170px;
-  height: 220px;
+  width: 230px;
+  height: 300px;
   background: #dbeafe;
   border-radius: 10px;
   display: flex;
@@ -86,17 +87,21 @@ header a:hover {
 }
 
 .libro-detalle .portada img {
-  width: 90px;
+  width: 120px;
+}
+
+.info-libro {
+  flex: 1;
 }
 
 .info-libro h2 {
   margin: 0;
-  font-size: 30px;
+  font-size: 34px;
   color: #111827;
 }
 
 .info-libro .autor {
-  margin: 8px 0 18px;
+  margin: 10px 0 22px;
   color: #6b7280;
   font-size: 18px;
   font-weight: bold;
@@ -106,28 +111,34 @@ header a:hover {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-  margin-bottom: 22px;
+  margin-bottom: 26px;
 }
 
 .etiquetas span {
   background: #1e3a8a;
   color: white;
-  padding: 6px 14px;
+  padding: 6px 16px;
   border-radius: 999px;
   font-size: 14px;
   font-weight: bold;
 }
 
+.etiquetas .disponible-no {
+  background: #6b7280;
+}
+
 .descripcion {
   color: #4b5563;
-  line-height: 1.6;
-  font-size: 16px;
-  max-width: 780px;
+  line-height: 1.7;
+  font-size: 17px;
+  max-width: 100%;
 }
 
 @media (max-width: 700px) {
   .libro-detalle {
     flex-direction: column;
+    padding: 24px;
+    gap: 24px;
   }
 
   .libro-detalle .portada {
@@ -135,6 +146,6 @@ header a:hover {
   }
 
   .info-libro h2 {
-    font-size: 24px;
+    font-size: 26px;
   }
 }
