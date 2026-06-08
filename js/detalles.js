@@ -5,6 +5,7 @@ xhttp.onload = function () {
   const xmlDoc = xhttp.responseXML;
   const libro = xmlDoc.getElementsByTagName("libro");
   const autors = xmlDoc.getElementsByTagName("autor");
+
   mostrarLibros(libro, autors);
 };
 xhttp.open("GET", "../DB/biblioteca.xml");
@@ -24,19 +25,29 @@ function mostrarLibros(libro, autors) {
     if (libro[i].getAttribute("id") == parametro) {
       const titulo = libro[i].getElementsByTagName("titulo")[0].textContent;
       const autor = autors[i].getElementsByTagName("nombre")[0].textContent;
-      console.log(titulo, autor);
+      const descri = libro[i].getElementsByTagName("descripcion")[0].textContent;
+      const gen = libro[i].getElementsByTagName("genero")[0].textContent;
+      console.log(titulo, autor,descri,gen);
       html += `
-            <div class="libro">
-              <div class="portada">
-                <img src="/img/book.png"
-                     alt="Portada"
-                     width="80">
-              </div>
+        <div class="libro-detalle">
+          <div class="portada">
+            <img src="/img/book.png" alt="Portada del libro">
+          </div>
 
-                <h3>${titulo}</h3>
-                <p>${autor}</p>
+          <div class="info-libro">
+            <h2>${titulo}</h2>
+            <p class="autor">${autor}</p>
+
+            <div class="etiquetas">
+                <span>${gen}</span>
             </div>
-        `;
+
+            <p class="descripcion">
+              ${descri}
+            </p>
+          </div>
+        </div>
+      `;
     }
   }
   repisa.innerHTML = html;

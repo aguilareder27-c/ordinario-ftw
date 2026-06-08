@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+}
+body {
+  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #1e3a8a;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header h1 {
+  margin-left: 20px;
+  color: #eee;
+}
+
+.inicio {
+  padding: 2px;
+  margin-left: auto;
+}
+header a {
+  padding: 10px;
+  color: #eee;
+}
+header a:hover {
+  color: #f97316;
+}
+.seccion2 {
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.seccion2 > a {
+  color: #555;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.seccion2 h1 {
+  margin-top: 20px;
+  color: #222;
+}
+
+.repisa {
+  margin-top: 20px;
+}
+
+.libro-detalle {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 28px;
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.libro-detalle .portada {
+  width: 170px;
+  height: 220px;
+  background: #dbeafe;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.libro-detalle .portada img {
+  width: 90px;
+}
+
+.info-libro h2 {
+  margin: 0;
+  font-size: 30px;
+  color: #111827;
+}
+
+.info-libro .autor {
+  margin: 8px 0 18px;
+  color: #6b7280;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.etiquetas {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+
+.etiquetas span {
+  background: #1e3a8a;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.descripcion {
+  color: #4b5563;
+  line-height: 1.6;
+  font-size: 16px;
+  max-width: 780px;
+}
+
+@media (max-width: 700px) {
+  .libro-detalle {
+    flex-direction: column;
+  }
+
+  .libro-detalle .portada {
+    width: 100%;
+  }
+
+  .info-libro h2 {
+    font-size: 24px;
+  }
+}
