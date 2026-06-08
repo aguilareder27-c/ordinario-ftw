@@ -25,11 +25,6 @@ const repisa = document.getElementsByClassName("repisa")[0];
 
 function mostrarLibros(libro, autors) {
   let html = "";
-
-  //console.log(libro);
-
-function mostrarLibros(libro, autors) {
-  let html = "";
   for (let i = 0; i < 6; i++) {
     const titulo = libro[i].getElementsByTagName("titulo")[0].textContent;
     const autor = autors[i].getElementsByTagName("nombre")[0].textContent;
