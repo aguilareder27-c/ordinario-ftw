@@ -94,3 +94,16 @@ header nav a:hover {
   color: #dbeafe;
   font-style: italic;
 }
+.filtros {
+  margin: 0 10% 10px;
+}
+
+.filtros select {
+  background: #1e3a8a;
+  color: #eee;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 15px;
+  cursor: pointer;
+}
