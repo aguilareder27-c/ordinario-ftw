@@ -58,7 +58,7 @@ function mostrarLibros(libro, autors) {
     <a href="paginas/detalle libro.html?id=${id}">
             <div class="libro">
               <div class="portada">
-                <img src="/img/book.png"
+                <img src="img/book.png"
                      alt="Portada"
                      width="80">
               </div>
